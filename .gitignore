@@ -1,0 +1,24 @@
+# For Gradle
+build
+.gradle
+
+# For IntelliJ/AndroidStudio
+*.iml
+.idea
+
+# For Mac
+.DS_Store
+
+# For Windows
+.classpath
+
+# For Local
+.project
+.settings
+.navigation
+local.properties
+captures
+.externalNativeBuild
+
+proguard
+.class
