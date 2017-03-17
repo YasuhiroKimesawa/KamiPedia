@@ -5,6 +5,8 @@ machine:
     ANDROID_HOME: /usr/local/android-sdk-linux
 dependencies:
   pre:
+      # http://sys1yagi.hatenablog.com/entry/2016/09/16/142145
+      # licenceが求められるためローカルの[$ANDROID_HOME/licenses/android-sdk-license]の内容を転記
     - mkdir $ANDROID_HOME/licenses
     - echo "8933bad161af4178b1185d1a37fbf41ea5269c55" >> $ANDROID_HOME/licenses/android-sdk-license
   override:
@@ -17,3 +19,4 @@ deployment:
     branch: master
     commands:
       - ./gradlew assembleRelease
+       - curl -F "file=@app/build/outputs/apk/app-release-unsigned.apk" -F "token=9c196cba00978c9c6940df4822738e578b923e52" -F "message=sample" https://deploygate.com/api/users/YasuhiroKimesawa/apps
