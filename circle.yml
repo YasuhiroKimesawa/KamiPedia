@@ -19,4 +19,4 @@ deployment:
     branch: master
     commands:
       - ./gradlew assembleRelease
-       - curl -F "file=@app/build/outputs/apk/app-release-unsigned.apk" -F "token=9c196cba00978c9c6940df4822738e578b923e52" -F "message=sample" https://deploygate.com/api/users/YasuhiroKimesawa/apps
+      - curl -F "file=@app/build/outputs/apk/app-release-unsigned.apk" -F "token=9c196cba00978c9c6940df4822738e578b923e52" -F "message=sample" https://deploygate.com/api/users/YasuhiroKimesawa/apps
