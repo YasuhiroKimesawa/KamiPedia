@@ -11,7 +11,7 @@
 - CircleCI ( CI環境 )
 - DeployGate
 
-![project](./project.png "プロジェクト管理の説明図")
+![project](./project.png "project管理の説明図")
 
 ## 運用ルール
 1. GitのcommitコメントにpivotalのストーリーIDを含める
