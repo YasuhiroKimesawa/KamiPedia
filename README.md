@@ -11,6 +11,8 @@
 - CircleCI ( CI環境 )
 - DeployGate
 
+![project](./project.png "プロジェクト管理の説明図")
+
 ## 運用ルール
 1. GitのcommitコメントにpivotalのストーリーIDを含める
 `[#12345677 #12345678] Diverting power from warp drive to torpedoes.`
