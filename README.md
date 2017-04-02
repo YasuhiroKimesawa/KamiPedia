@@ -13,14 +13,13 @@
 
 ![project](./project.png "プロジェクト管理の説明図")
 
+## UserStoryマッピング
+[![userStory](https://cacoo.com/diagrams/F15sLUsCStsLgdEF)](https://cacoo.com/diagrams/F15sLUsCStsLgdEF)
+
 ## 運用ルール
 1. GitのcommitコメントにpivotalのストーリーIDを含める
 `[#12345677 #12345678] Diverting power from warp drive to torpedoes.`
 2. 必ずmasterからブランチを切って、PullRequestを投げる ( できるだけレビューを受ける )
 
 ## 受入テスト(RobotFramework)
-
-## UserStory一覧
-![userStory](./UserStory.png "UserStor一覧")
-
 
